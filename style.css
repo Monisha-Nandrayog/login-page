@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box>.second-box{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(233, 228, 228);
+    /* border: 1px solid black; */
+    /* margin: 20px; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px;
+}
+.main-box>.second-box>.left{
+    height: 90%;
+    width: 28%;
+    background-color: white;
+    /* border: 1px solid ;6 */
+    padding: 15px;
+    box-shadow: 5px;
+}
+.main-box>.second-box>.left>h1{
+    font-size: xx-large;
+    padding-bottom: 5px;
+}
+.main-box>.second-box>.left>h4{
+    font-size: medium;
+    color: slategrey;
+    padding-bottom: 20px;
+    /* text-align: center; */
+}
+.main-box>.second-box>.left>h4>a{
+    color: rgb(116, 11, 214);
+    font-weight: 500;
+    font-size: medium;
+    text-align:right;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.main-box>.second-box>.left>h4>a:hover{
+    color: red;
+}
+.main-box>.second-box>.left>form>strong{
+    text-align: justify;
+    font-weight: 800;
+    padding-top: 7px;
+}
+.main-box>.second-box>.left>form>input{
+    font-size:larger;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 5px;
+    width: 100%;
+}
+.main-box>.second-box>.left>form>.Remember{
+    display: flex;
+    padding: 5px;
+}
+.main-box>.second-box>.left>form>.Remember>h5{
+    color: gray;
+    font-size: medium;
+    padding: 5px;
+}
+.main-box>.second-box>.left>form>.log{
+    font-size: large;
+    width: 100%;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    text-decoration: none;
+    padding: 10px;
+}
+.main-box>.second-box>.left>form>.log:hover{
+    background-color: red;
+}
+.main-box>.second-box>.left>form>strong>a{
+    color: rgb(116, 11, 214);
+    font-weight: 500;
+    font-size: medium;
+    text-align:right;
+    padding-left: 110px;
+    font-weight: bold;
+}
+.main-box>.second-box>.left>form>strong>a:hover{
+    color: red;
+}
+.main-box>.second-box>.left>form>label{
+    color: black;
+    font-size: large;
+    
+}
+.main-box>.second-box>.left>#logwith{
+    font-size: medium;
+    color: slategrey;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.main-box>.second-box>.left>.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main-box>.second-box>.left>.button>.google{
+    padding: 10px 10px;
+    border: 2px solid red;
+    border-radius: 8px;
+    width: 50%;
+}
+.main-box>.second-box>.left>.button>.google:hover{
+    background-color:aquamarine;
+    border: 2px solid rgba(119, 46, 46, 0.795);
+}
+.main-box>.second-box>.left>.button>.google>a{
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.main-box>.second-box>.left>.button>.facebook{
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    width: 50%;
+}
+.main-box>.second-box>.left>.button>.facebook:hover{
+    background-color:aquamarine;
+    border: 2px solid rgb(6, 6, 90) ;
+}
+.main-box>.second-box>.left>.button>.facebook>a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.main-box>.second-box>.right{
+    height: 90%;
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.main-box>.second-box>.right>#pic{
+    background-image: url(./rpic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
